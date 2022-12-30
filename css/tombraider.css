@@ -1,0 +1,671 @@
+@font-face {
+    font-family: "Tomb Raider";
+    src: url("C:\Users\DeanV\OneDrive\Documents\Q2\Responsive Design\Thema Website\fonts\VendomeTBold\Vendome_T_Bold.ttf");
+}
+
+.menu-button,
+html {
+    background-color: #292929
+}
+
+body,
+footer,
+html {
+    font-family: "Tomb Raider", sans-serif;
+    width: 100%
+}
+
+html {
+    color: #9b9b9b;
+    font-size: 14px;
+    height: 100%
+}
+
+h1 {
+    line-height: 1.5;
+    font-size: 25px
+}
+
+body {
+    border-style: solid;
+    border-color: #525050;
+    height: auto;
+    margin: auto
+}
+
+.menu-button-wrapper {
+    display: flex;
+    justify-content: center
+}
+
+.menu-button {
+    font-size: 1.5rem;
+    color: #fff;
+    border: none
+}
+
+.article-header {
+    font-size: 25px;
+    color: #bebebe
+}
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+    line-height: 380%;
+    background-color: #535353
+}
+
+
+
+    .lara-originalimg,
+    body,
+    img {
+        width: 100%
+    }
+
+    .dropdown-content,
+    .evolution-wrapper,
+    .aside,
+    h1,
+    nav {
+        display: none
+    }
+
+    .asidebefore,
+    .dropdown:hover .dropdown-content,
+    .image-wrapper,
+    .main-wrapper>*,
+    header {
+        display: flex
+    }
+
+    #bike,
+    #cover,
+    #swim,
+    #uzi,
+    #branch {
+        display: none;
+    }
+
+    a,
+    nav {
+        text-decoration: none
+    }
+
+    h1 {
+        padding: 5px;
+        margin: auto;
+        font-size: 25px
+    }
+
+    header {
+        background-color: #535353
+    }
+
+    header>:nth-child(2) {
+        flex: 35%
+    }
+
+    a {
+        color: #f0f8ff
+    }
+
+    nav {
+        flex-direction: column;
+        background-color: #020202;
+        list-style: none;
+        text-align: center;
+        font-size: 20px;
+        align-self: auto
+    }
+
+    nav> * {
+        border: 1px solid #706c6c;
+        flex: 11.6%;
+        line-height: 3ch
+    }
+
+    nav> *:hover {
+        background-color: #2a2d31
+    }
+
+    nav > * {
+        flex: 11.6%;
+        border: 1px solid #706c6c;
+        border-bottom: 0;
+        border-top: 0;
+        line-height: 3ch;
+      }
+      
+      nav > *:first-child {
+        border-bottom: 1px solid #706c6c;
+      }
+      
+      nav > *:last-child {
+        border-top: 1px solid #706c6c;
+      }
+      
+
+    .aside-wrapper,
+    .logo-wrapper {
+        display: flex;
+        justify-content: center
+    }
+
+    .asidebefore {
+        flex: 50%;
+    }
+
+    .imgbefore {
+        width: 35%
+    }
+
+    .main-wrapper>* {
+        flex-wrap: wrap;
+        flex: 100%
+    }
+
+    .main-wrapper>:first-child {
+        flex: 1 0 50%;
+        margin-top: 15px
+    }
+
+    .main-wrapper>:nth-child(2) {
+        flex: 50%
+    }
+
+    #introtext {
+        text-align: justify;
+        margin-top: 18;
+        padding: 15px;
+        font-size: 18px
+    }
+
+    .asidebefore {
+        margin-top: 5%;
+    }
+
+    .main-wrapper {
+        background-color: #292929
+    }
+
+    .lara-originalimg {
+        width: 100%;
+        height: auto
+    }
+
+    .hideMe {
+        margin-top: -5;
+        width: 80%;
+        height: 95%
+    }
+
+    .image-wrapper {
+        flex-wrap: wrap;
+        flex-direction: row
+    }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        flex-flow: column;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+        z-index: 1;
+        font-size: 15px;
+        line-height: 1.5;
+        width: auto;
+        margin-top: 0
+    }
+
+    .select-game-category {
+        border-style: solid;
+        border-color: #706c6c;
+        border-width: 1px;
+        border-bottom: 0
+    }
+
+    .select-game-category:hover {
+        color: gold
+    }
+
+    .article-below {
+        display: none;
+    }
+
+
+    .timeline-wrapper {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .timeline-flexme {
+        flex: 0 0 85%;
+    }
+
+    .lara-history {
+        flex: 0 0 95%;
+    }
+
+
+
+@media only screen and (min-width:601px) {
+
+    .navigation,
+    a {
+        text-decoration: none
+    }
+
+    .evolution-wrapper,
+    .navigation {
+        text-align: center
+    }
+
+    #lara-suduc,
+    .dropdown-content,
+    .navigation,
+    h1 {
+        display: none
+    }
+
+    body {
+        width: 100%
+    }
+
+    .aside-wrapper,
+    .logo-wrapper {
+        display: flex;
+        justify-content: center
+    }
+
+    .imgbefore {
+        display: none;
+        width: 35%
+    }
+
+    .wallpaper-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+
+    .img-wallpaper {
+        flex: 1 0 25%
+    }
+
+    .main-wrapper {
+        display: flex;
+        background-color: #292929
+    }
+
+    .main-wrapper>:first-child {
+        flex: 1 1 30%;
+        margin-top: 35px
+    }
+
+    .main-wrapper>:nth-child(2) {
+        flex: 70%
+    }
+
+    #introtext {
+        text-align: justify;
+        margin-top: 18;
+        padding: 15px;
+        font-size: 18px
+    }
+
+    .lara-originalimg,
+    img {
+        width: 100%;
+        height: auto
+    }
+
+    header {
+        display: flex;
+        background-color: #535353
+    }
+
+    header>:first-child {
+        flex: 65%
+    }
+
+    header>:nth-child(2) {
+        flex: 35%
+    }
+
+    a {
+        color: #f0f8ff
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        background-color: #020202;
+        list-style: none;
+        font-size: 20px
+    }
+
+    .dropdown:hover .dropdown-content,
+    .fotogalery {
+        display: flex
+    }
+
+    .navigation>:first-child,
+    .navigation>:nth-child(3) {
+        line-height: 3ch;
+        border: 1px solid #706c6c
+    }
+
+    .navigation>:first-child:hover,
+    .navigation>:nth-child(2):hover,
+    .navigation>:nth-child(3):hover {
+        background-color: #2a2d31
+    }
+
+    .navigation>:nth-child(2) {
+        line-height: 3ch;
+        border-style: solid;
+        border-color: #706c6c;
+        border-width: 1px;
+        border-bottom: 0;
+        border-top: 0
+    }
+
+
+    .image-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row
+    }
+
+    .game-screenshot {
+        flex: 0 1 100%
+    }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        flex-flow: column;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+        z-index: 1;
+        font-size: 15px;
+        line-height: 1.5;
+        width: auto;
+        margin-top: 0
+    }
+
+    .select-game-category {
+        border-style: solid;
+        border-color: #706c6c;
+        border-width: 1px;
+        border-bottom: 0
+    }
+
+    #currently-active,
+    .select-game-category:hover {
+        color: gold
+    }
+
+
+    .select-game-category:hover {
+        color: gold
+    }
+
+    .aside {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-after {
+        flex: 1 1 100%; 
+    }
+
+    .hideMe {
+        width: 100%;
+        height: auto;
+    }
+
+    #bike,
+    #cover,
+    #swim,
+    #uzi,
+    #branch {
+        display: flex;
+    }
+
+    .evolution-wrapper {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width:768px) {
+
+    #currently-active-box,
+    .navigation>:first-child:hover,
+    .navigation>:nth-child(2):hover,
+    .navigation>:nth-child(3):hover {
+        border-bottom: #2bb45d;
+        border-style: solid
+    }
+
+    .dropdown-content,
+    header {
+        background-color: #535353
+    }
+
+    .menu-button {
+        display: none
+    }
+
+    body {
+        width: 65%
+    }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        flex-flow: column;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+        padding: 20px 25px;
+        z-index: 1;
+        font-size: 16px;
+        line-height: 1.5;
+        width: auto;
+        top: -4;
+        margin-top: 0
+    }
+
+    #lara-suduc,
+    .navigation,
+    h1,
+    header {
+        display: flex
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: inline-flex
+    }
+
+    .navigation {
+        flex: 25%;
+        flex-direction: row
+    }
+
+    h1 {
+        color: #fff;
+        margin-left: 2%
+    }
+
+    header {
+        height: 76px
+    }
+
+    header>:first-child {
+        flex: 0 1 53%
+    }
+
+    header>:nth-child(2) {
+        flex: 0 1 47%;
+        line-height: 55%
+    }
+
+    .navigation>:first-child,
+    .navigation>:nth-child(2),
+    .navigation>:nth-child(3) {
+        line-height: 350%;
+        flex: 1 0 13.3%;
+        border-style: none
+    }
+
+    .main-wrapper>:first-child {
+        flex: 0 0 35%
+    }
+
+    .main-wrapper>:nth-child(2) {
+        flex-wrap: wrap;
+        flex: 65
+    }
+
+    .image-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row
+    }
+
+    .game-screenshot {
+        flex: 1 1 33%
+    }
+
+    .select-game-category {
+        border: none
+    }
+
+}
+
+@media only screen and (min-width:900px) {
+    .main-wrapper>:first-child {
+        flex: 0 0 35%
+    }
+
+    .main-wrapper>:nth-child(2) {
+        flex: 1 1 65%
+    }
+    
+    h1 {
+    font-size: 28px;
+    line-height: 1.2;
+    }
+}
+
+@media only screen and (min-width:1100px) {
+
+    .hideMe {
+        margin-top: -50;
+    }
+    
+    #lara-suduc {
+        display: none
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    #lara-flashlight {
+        display: none
+    }
+
+    .dropdown-content {
+        display: none;
+        position: sticky;
+        flex-flow: column;
+        background-color: #535353;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+        padding: 20px;
+        z-index: 1;
+        font-size: 16px;
+        line-height: 2;
+        width: auto
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: inline-flex
+    }
+
+    header:hover {
+        height: 76px
+    }
+
+    header>:first-child {
+        flex: 60%
+    }
+
+    header>:nth-child(2) {
+        flex: 40%;
+        line-height: 55%
+    }
+
+    .lara-originalimg {
+        margin-top: 30%;
+    }
+
+  
+
+    .article-wrapper {
+        display: flex;
+        flex-flow: column
+    }
+}
+
+@media only screen and (min-width:1400px) {
+
+    .article-wrapper {
+        margin-top: 10%
+    }
+
+    .hideMe {
+        margin-top: 170px
+    }
+
+    .lara-originalimg {
+        margin-top: 50px;
+    }
+
+    .img-wallpaper {
+        flex: 1 0 33%
+    }
+}
+
+@media only screen and (min-width:1600px) {
+    .article-wrapper {
+        margin-top: 0
+    }
+
+    .lara-originalimg {
+        margin-top: 25%;
+    }
+
+    .hideMe {
+        margin-top: 45%;
+    }
+
+    .main-wrapper>:first-child {
+        flex: 20%
+    }
+}
+
+@media only screen and (min-width:1600px) {
+
+   .lara-originalimg {
+    margin-top: auto;
+   }
+
+   .hideMe {
+    margin-top: auto;
+   }
+}
