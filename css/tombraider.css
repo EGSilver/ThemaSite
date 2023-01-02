@@ -1,17 +1,41 @@
-@font-face {
-    font-family: "Tomb Raider";
-    src: url("C:\Users\DeanV\OneDrive\Documents\Q2\Responsive Design\Thema Website\fonts\VendomeTBold\Vendome_T_Bold.ttf");
+body,
+h1 {
+    font-family: "Tomb Raider", sans-serif;
+    margin: auto
 }
 
+h2 {
+    font-family: "Tomb Raider", sans-serif;
+}
+
+article {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+footer,
+nav {
+    text-align: center
+}
+
+@font-face {
+    font-family: "Tomb Raider";
+    src: url("../fonts/VendomeTBold/Vendome_T_Bold.ttf")
+}
+
+.main-wrapper,
 .menu-button,
 html {
     background-color: #292929
 }
 
+footer,
+header {
+    background-color: #535353
+}
+
 body,
 footer,
 html {
-    font-family: "Tomb Raider", sans-serif;
     width: 100%
 }
 
@@ -23,16 +47,18 @@ html {
 
 h1 {
     line-height: 1.5;
+    padding: 5px;
     font-size: 25px
 }
 
 body {
     border-style: solid;
     border-color: #525050;
-    height: auto;
-    margin: auto
+    height: auto
 }
 
+.aside-wrapper,
+.logo-wrapper,
 .menu-button-wrapper {
     display: flex;
     justify-content: center
@@ -51,204 +77,170 @@ body {
 
 footer {
     margin-top: 5%;
-    text-align: center;
-    line-height: 380%;
-    background-color: #535353
+    line-height: 380%
 }
 
+.navigation>:first-child,
+.navigation>:nth-child(3),
+nav>* {
+    line-height: 3ch;
+    border: 1px solid #706c6c
+}
 
+.lara-originalimg,
+body,
+img {
+    width: 100%
+}
 
-    .lara-originalimg,
-    body,
-    img {
-        width: 100%
-    }
+#bike,
+#branch,
+#cover,
+#swim,
+#uzi,
+.article-below,
+.aside,
+.dropdown-content,
+.evolution-wrapper,
+h1,
+nav {
+    display: none
+}
 
-    .dropdown-content,
-    .evolution-wrapper,
-    .aside,
-    h1,
-    nav {
-        display: none
-    }
+.asidebefore,
+.dropdown:hover .dropdown-content,
+.image-wrapper,
+.main-wrapper>*,
+header {
+    display: flex
+}
 
-    .asidebefore,
-    .dropdown:hover .dropdown-content,
-    .image-wrapper,
-    .main-wrapper>*,
-    header {
-        display: flex
-    }
+a,
+nav {
+    text-decoration: none
+}
 
-    #bike,
-    #cover,
-    #swim,
-    #uzi,
-    #branch {
-        display: none;
-    }
+header>:nth-child(2) {
+    flex: 35%
+}
 
-    a,
-    nav {
-        text-decoration: none
-    }
+a {
+    color: #f0f8ff
+}
 
-    h1 {
-        padding: 5px;
-        margin: auto;
-        font-size: 25px
-    }
+nav {
+    flex-direction: column;
+    background-color: #020202;
+    list-style: none;
+    font-size: 20px;
+    align-self: auto
+}
 
-    header {
-        background-color: #535353
-    }
+nav>* {
+    flex: 11.6%;
+    flex: 11.6%;
+    border-bottom: 0;
+    border-top: 0
+}
 
-    header>:nth-child(2) {
-        flex: 35%
-    }
+.navigation>:first-child:hover,
+.navigation>:nth-child(2):hover,
+.navigation>:nth-child(3):hover,
+nav>:hover {
+    background-color: #2a2d31
+}
 
-    a {
-        color: #f0f8ff
-    }
+nav>:first-child {
+    border-bottom: 1px solid #706c6c
+}
 
-    nav {
-        flex-direction: column;
-        background-color: #020202;
-        list-style: none;
-        text-align: center;
-        font-size: 20px;
-        align-self: auto
-    }
+nav>:last-child {
+    border-top: 1px solid #706c6c
+}
 
-    nav> * {
-        border: 1px solid #706c6c;
-        flex: 11.6%;
-        line-height: 3ch
-    }
+.asidebefore {
+    flex: 50%;
+    margin-top: 5%
+}
 
-    nav> *:hover {
-        background-color: #2a2d31
-    }
+.imgbefore {
+    width: 35%
+}
 
-    nav > * {
-        flex: 11.6%;
-        border: 1px solid #706c6c;
-        border-bottom: 0;
-        border-top: 0;
-        line-height: 3ch;
-      }
-      
-      nav > *:first-child {
-        border-bottom: 1px solid #706c6c;
-      }
-      
-      nav > *:last-child {
-        border-top: 1px solid #706c6c;
-      }
-      
+.main-wrapper>* {
+    flex-wrap: wrap;
+    flex: 100%
+}
 
-    .aside-wrapper,
-    .logo-wrapper {
-        display: flex;
-        justify-content: center
-    }
+.main-wrapper>:first-child {
+    flex: 1 0 50%;
+    margin-top: 15px
+}
 
-    .asidebefore {
-        flex: 50%;
-    }
+.main-wrapper>:nth-child(2) {
+    flex: 50%
+}
 
-    .imgbefore {
-        width: 35%
-    }
+#introtext {
+    text-align: justify;
+    margin-top: 18;
+    padding: 15px;
+    font-size: 18px
+}
 
-    .main-wrapper>* {
-        flex-wrap: wrap;
-        flex: 100%
-    }
+.lara-originalimg {
+    width: 100%;
+    height: auto
+}
 
-    .main-wrapper>:first-child {
-        flex: 1 0 50%;
-        margin-top: 15px
-    }
+.hideMe {
+    margin-top: -5;
+    width: 80%;
+    height: 95%
+}
 
-    .main-wrapper>:nth-child(2) {
-        flex: 50%
-    }
+.image-wrapper {
+    flex-wrap: wrap;
+    flex-direction: row
+}
 
-    #introtext {
-        text-align: justify;
-        margin-top: 18;
-        padding: 15px;
-        font-size: 18px
-    }
+.dropdown-content {
+    display: none;
+    position: relative;
+    flex-flow: column;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+    z-index: 1;
+    font-size: 15px;
+    line-height: 1.5;
+    width: auto;
+    margin-top: 0
+}
 
-    .asidebefore {
-        margin-top: 5%;
-    }
+.select-game-category {
+    border-style: solid;
+    border-color: #706c6c;
+    border-width: 1px;
+    border-bottom: 0
+}
 
-    .main-wrapper {
-        background-color: #292929
-    }
+.timeline-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap
+}
 
-    .lara-originalimg {
-        width: 100%;
-        height: auto
-    }
+.timeline-flexme {
+    flex: 0 0 85%
+}
 
-    .hideMe {
-        margin-top: -5;
-        width: 80%;
-        height: 95%
-    }
+.lara-history {
+    flex: 0 0 95%
+}
 
-    .image-wrapper {
-        flex-wrap: wrap;
-        flex-direction: row
-    }
-
-    .dropdown-content {
-        display: none;
-        position: relative;
-        flex-flow: column;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
-        z-index: 1;
-        font-size: 15px;
-        line-height: 1.5;
-        width: auto;
-        margin-top: 0
-    }
-
-    .select-game-category {
-        border-style: solid;
-        border-color: #706c6c;
-        border-width: 1px;
-        border-bottom: 0
-    }
-
-    .select-game-category:hover {
-        color: gold
-    }
-
-    .article-below {
-        display: none;
-    }
-
-
-    .timeline-wrapper {
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .timeline-flexme {
-        flex: 0 0 85%;
-    }
-
-    .lara-history {
-        flex: 0 0 95%;
-    }
-
-
+#currently-active,
+.select-game-category:hover {
+    color: gold
+}
 
 @media only screen and (min-width:601px) {
 
@@ -315,6 +307,7 @@ footer {
         font-size: 18px
     }
 
+    .hideMe,
     .lara-originalimg,
     img {
         width: 100%;
@@ -346,21 +339,14 @@ footer {
         font-size: 20px
     }
 
+    #bike,
+    #branch,
+    #cover,
+    #swim,
+    #uzi,
     .dropdown:hover .dropdown-content,
     .fotogalery {
         display: flex
-    }
-
-    .navigation>:first-child,
-    .navigation>:nth-child(3) {
-        line-height: 3ch;
-        border: 1px solid #706c6c
-    }
-
-    .navigation>:first-child:hover,
-    .navigation>:nth-child(2):hover,
-    .navigation>:nth-child(3):hover {
-        background-color: #2a2d31
     }
 
     .navigation>:nth-child(2) {
@@ -371,7 +357,6 @@ footer {
         border-bottom: 0;
         border-top: 0
     }
-
 
     .image-wrapper {
         display: flex;
@@ -395,49 +380,18 @@ footer {
         margin-top: 0
     }
 
-    .select-game-category {
-        border-style: solid;
-        border-color: #706c6c;
-        border-width: 1px;
-        border-bottom: 0
-    }
-
-    #currently-active,
-    .select-game-category:hover {
-        color: gold
-    }
-
-
-    .select-game-category:hover {
-        color: gold
-    }
-
     .aside {
         display: flex;
-        flex-direction: column;
+        flex-direction: column
     }
 
     .img-after {
-        flex: 1 1 100%; 
-    }
-
-    .hideMe {
-        width: 100%;
-        height: auto;
-    }
-
-    #bike,
-    #cover,
-    #swim,
-    #uzi,
-    #branch {
-        display: flex;
+        flex: 1 1 100%
     }
 
     .evolution-wrapper {
-        display: block;
+        display: block
     }
-
 }
 
 @media only screen and (min-width:768px) {
@@ -485,7 +439,7 @@ footer {
     }
 
     h2 {
-        margin-top: 0;
+        margin-top: 0
     }
 
     .dropdown:hover .dropdown-content {
@@ -545,10 +499,10 @@ footer {
     .select-game-category {
         border: none
     }
-
 }
 
 @media only screen and (min-width:900px) {
+    
     .main-wrapper>:first-child {
         flex: 0 0 35%
     }
@@ -556,26 +510,25 @@ footer {
     .main-wrapper>:nth-child(2) {
         flex: 1 1 65%
     }
-    
+
     h1 {
-    font-size: 28px;
-    line-height: 1.2;
+        font-size: 28px;
+        line-height: 1.2
     }
 }
 
 @media only screen and (min-width:1100px) {
 
     .hideMe {
-        margin-top: -50;
+        margin-top: -50
     }
-    
+
     #lara-suduc {
         display: none
     }
 }
 
 @media only screen and (min-width:1200px) {
-
     #lara-flashlight {
         display: none
     }
@@ -611,10 +564,8 @@ footer {
     }
 
     .lara-originalimg {
-        margin-top: 30%;
+        margin-top: 30%
     }
-
-  
 
     .article-wrapper {
         display: flex;
@@ -633,7 +584,7 @@ footer {
     }
 
     .lara-originalimg {
-        margin-top: 50px;
+        margin-top: 50px
     }
 
     .img-wallpaper {
@@ -642,30 +593,17 @@ footer {
 }
 
 @media only screen and (min-width:1600px) {
+
     .article-wrapper {
         margin-top: 0
-    }
-
-    .lara-originalimg {
-        margin-top: 25%;
-    }
-
-    .hideMe {
-        margin-top: 45%;
     }
 
     .main-wrapper>:first-child {
         flex: 20%
     }
-}
 
-@media only screen and (min-width:1600px) {
-
-   .lara-originalimg {
-    margin-top: auto;
-   }
-
-   .hideMe {
-    margin-top: auto;
-   }
+    .hideMe,
+    .lara-originalimg {
+        margin-top: auto
+    }
 }
